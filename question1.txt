@@ -1,0 +1,11 @@
+Task 1: Explain the purpose of using the var () function in css.  Also you ahve created two buttons with id named primaryBtn and secondryBtn which should be given background colors using the var() function. The color code for PrimarColor is #00b7ff and secondaryColor #6c757d.
+
+Solution:
+The var() function in CSS is used to reference and use the value of a custom property with your stylesheets. CSS vairables are defined using the --prefix followed by a variable name. They allows us to store and reuse values throughout our stylesheet , making  it easier to maintain consistency and make global changes.
+
+Purpose of var() function:
+1. Reusability : CSS variables allows us to store values that we can reuse across our stylesheet. The var() function lets us reference there values wherever needed, reducing redundancy and making our code cleaner.
+
+2. Consistency: By using variables we can ensure consistent values for colors , spacing , fonts and more throughoutour entire design, Changing a variable's value will automatically update all instance where the variables is used.
+
+3. Global Changes: if we need to make a design change , we can update the variable's value once  and the change will be applied to all instance using that variables.
